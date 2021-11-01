@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 0 2.5%;
+  overflow-x: hidden;
+}
+
+.mainContainer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 70vh;
+}
+.navBar {
+  display: flex;
+  height: 35px;
+  width: 67%;
+  border-radius: 5px;
+  margin: 0 auto 20px auto;
+}
+.nav1 {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.navBar button,
+.navBar div {
+  background: linear-gradient(0deg, lightgray, gray, lightgray);
+  border: none;
+  border-right: 1px solid black;
+  color: white;
+  flex: 1 1 0;
+  position: relative;
+}
+.navBar button {
+  cursor: pointer;
+}
+.navBar button:hover {
+  background: linear-gradient(0deg, gray, black, gray);
+}
+.nav1 img {
+  height: 20px;
+  width: 18px;
+  background-color: transparent;
+}
+
+.navBar div i {
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  left: 15%;
+  top: 30%;
+}
+.searchDiv {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.searchDiv input {
+  width: 80%;
+  height: 60%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background: linear-gradient(0deg, lightgray, gray, lightgray);
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+}
+.searchDiv input:focus {
+  background: white;
+}
+.heading {
+  width: 800px;
+  margin: 0px auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#appleTitle {
+  margin-left: auto;
+  width: 1000px;
+  margin-right: auto;
+}
+.demoLink {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  margin: 28px auto;
+}
+.demoLink a {
+  margin-left: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: lighter;
+}
+#fa-play-circle-o {
+  color: white;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 30px;
+}
+.demoLink a:hover {
+  text-decoration: underline;
+}
+#fa-play-circle-o:hover {
+  text-decoration: none;
+}
+
+#bg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+.content {
+  margin-top: 100px;
+}
+.subContent {
+  height: 210px;
+  width: 100%;
+  display: flex;
+}
+.subImage {
+  flex: 1 1 0;
+  height: 100%;
+  width: 25%;
+  margin-top: 1px;
+  overflow: hidden;
+  margin-right: 2px;
+  background-color: violet;
+}
+.subImage img {
+  height: 100%;
+}
+.bottomLine {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.bottomLine1 {
+  color: gray;
+  font-size: 12px;
+}
+.bottomLine1 a {
+  color: #08c;
+  text-decoration: none;
+}
+.bottomLine1 a:hover {
+  text-decoration: underline;
+}
+.bottomLine2 {
+  display: flex;
+}
+.bottomLine2 button {
+  padding: 0 8px;
+  border: none;
+  cursor: pointer;
+  border-right: 1px solid gray;
+  font-size: 10px;
+  color: #08c;
+  background: transparent;
+  height: 16px;
+}
+.bottomLine2 button:hover {
+  text-decoration: underline;
+}
+.bottomLine2 button:last-child {
+  border: none;
+}
+.bottomLine button img {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+.lastbox {
+  width: 100%;
+  margin-left: 15.25%;
+  gap: 0;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  justify-content: flex-start;
+}
